@@ -28,5 +28,10 @@ namespace project_statistics
             Form1 newForm = new Form1();
             newForm.Show();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

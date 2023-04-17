@@ -29,6 +29,7 @@ namespace project_statistics
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,14 +47,15 @@ namespace project_statistics
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.LightBlue;
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(16, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(343, 299);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -66,7 +68,7 @@ namespace project_statistics
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(321, 55);
             this.label4.TabIndex = 3;
-            this.label4.Text = "made by Корбут матвей Худяков Кирилл team";
+            this.label4.Text = "made by Корбут Матвей Худяков Кирилл team";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
@@ -105,6 +107,7 @@ namespace project_statistics
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.LightBlue;
             this.label5.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(24, 336);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -116,10 +119,11 @@ namespace project_statistics
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.LightBlue;
             this.linkLabel1.Location = new System.Drawing.Point(169, 384);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(118, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(117, 16);
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "******@mail.ru";
@@ -127,29 +131,32 @@ namespace project_statistics
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.LightBlue;
             this.label6.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(25, 384);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(136, 16);
+            this.label6.Size = new System.Drawing.Size(135, 16);
             this.label6.TabIndex = 3;
             this.label6.Text = "Электронная почта";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.LightBlue;
             this.label7.Location = new System.Drawing.Point(28, 413);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(136, 16);
+            this.label7.Size = new System.Drawing.Size(135, 16);
             this.label7.TabIndex = 4;
             this.label7.Text = "официальный сайт";
             // 
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
+            this.linkLabel2.BackColor = System.Drawing.Color.LightBlue;
             this.linkLabel2.Location = new System.Drawing.Point(172, 413);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(116, 16);
+            this.linkLabel2.Size = new System.Drawing.Size(115, 16);
             this.linkLabel2.TabIndex = 5;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Project static.ru";
@@ -157,21 +164,25 @@ namespace project_statistics
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
+            this.linkLabel3.BackColor = System.Drawing.Color.LightBlue;
             this.linkLabel3.Location = new System.Drawing.Point(29, 443);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(150, 16);
+            this.linkLabel3.Size = new System.Drawing.Size(149, 16);
             this.linkLabel3.TabIndex = 6;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Отзыв о приложении";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(29, 470);
+            this.button1.BackColor = System.Drawing.Color.LightBlue;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Location = new System.Drawing.Point(3, 470);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 36);
+            this.button1.Size = new System.Drawing.Size(135, 36);
             this.button1.TabIndex = 7;
             this.button1.Text = "Вернуться";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
@@ -179,6 +190,7 @@ namespace project_statistics
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(409, 518);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.linkLabel3);
@@ -189,9 +201,10 @@ namespace project_statistics
             this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.Text = "Program information";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

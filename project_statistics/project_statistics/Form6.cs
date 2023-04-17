@@ -36,6 +36,11 @@ namespace project_statistics
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
             string login2 = textBox1.Text;
             string password2 = textBox2.Text;
             if (login2 == "test2")
@@ -57,13 +62,7 @@ namespace project_statistics
                 MessageBox.Show("Не правильно веден логин или пароль");
                 this.Hide();
             }
-        }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form7 newForm = new Form7();
-            newForm.Show();
         }
     }
 }

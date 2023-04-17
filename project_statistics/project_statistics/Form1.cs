@@ -50,5 +50,10 @@ namespace project_statistics
             newForm.Show();
             this.Hide();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

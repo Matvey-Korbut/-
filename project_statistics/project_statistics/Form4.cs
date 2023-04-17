@@ -42,5 +42,17 @@ namespace project_statistics
             Form5 newForm = new Form5();
             newForm.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 newForm = new Form1();
+            newForm.Show();
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
     }
 }
